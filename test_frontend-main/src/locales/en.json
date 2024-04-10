@@ -1,0 +1,33 @@
+{
+  "agreement": {
+    "content-title": "What should you do?",
+    "step-1": "In the first tab, you must confirm that you are of legal age and that you accept the processing of your data according to the current data policy.",
+    "step-2": "In the second tab, you must create a username, a password, and a hint to remember the password (as optional information).",
+    "step-3": "Thirdly, you must see the success message of creation.",
+    "agreement": "Confirm that you are of legal age and accept the processing of your data according to the current data protection policy.",
+    "next": "Next"
+  },
+  "form": {
+    "username-label": "Create your username",
+    "username-placeholder": "Enter your username",
+    "password-label": "Create your password",
+    "password-placeholder": "Create your password",
+    "password-confirmation-label": "Repeat your password",
+    "password-confirmation-placeholder": "Repeat your password",
+    "password-hint-info": "You can also create a hint to help you remember your password.",
+    "password-hint-label": "Create your hint to remember your password (optional)",
+    "password-hint-placeholder": "Enter your hint",
+    "next": "Next",
+    "back": "Back"
+  },
+  "confirmation": {
+    "content-title": "The account was created successfully!",
+    "back": "Back",
+    "back-to-start": "Back to start"
+  },
+  "navigation": {
+    "next": "Next",
+    "back": "Back",
+    "back-to-start": "Back to start"
+  }
+}

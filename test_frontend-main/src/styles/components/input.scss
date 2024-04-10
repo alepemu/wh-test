@@ -1,0 +1,107 @@
+@import "../base";
+
+.input-check {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  input {
+    margin-top: 2px;
+    cursor: pointer;
+  }
+  label {
+    cursor: pointer;
+    font-weight: 400;
+  }
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: $light-green-color;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+input:active,
+input:focus {
+  outline: none;
+  border-radius: 3px;
+  border-color: $dark-green-color;
+}
+
+.input-error {
+  position: absolute;
+  bottom: -20px;
+  color: $red;
+  font-size: 12px;
+}
+
+.input-error-border {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+.input-count {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  font-size: 12px;
+  color: $black;
+}
+
+.password-visibility {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  cursor: pointer;
+}
+
+.password-strength {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 8px;
+  padding: 2px;
+  .password-strength-bar {
+    height: 100%;
+    &.none {
+      width: 0%;
+    }
+    &.weak {
+      width: 25%;
+      background-color: red;
+    }
+    &.medium {
+      width: 50%;
+      background-color: orange;
+    }
+    &.strong {
+      width: 75%;
+      background-color: green;
+    }
+    &.very-strong {
+      width: 100%;
+      background-color: green;
+    }
+  }
+}
+
+.bold,
+label {
+  font-weight: 700;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+}
+
+.input-info {
+  height: 20px;
+  margin-left: 10px;
+  color: steelblue;
+}

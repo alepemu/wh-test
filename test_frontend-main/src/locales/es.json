@@ -1,0 +1,34 @@
+{
+  "agreement": {
+    "content-title": "¿Qué deberá realizar?",
+    "step-1": "En la primera pestaña, deberá confirmar que es mayor de edad y que acepta el tratamiento de sus datos según la política de datos vigente.",
+    "step-2": "En la segunda pestaña, deberá crear un usuario, una contraseña y una pista para recordar la contraseña (como dato opcional).",
+    "step-3": "En tercer lugar, deberá visualizarse el mensaje de éxito de creación.",
+    "agreement": "Confirme que es mayor de edad y acepta el tratamiento de sus datos según la política de protección de datos vigente.",
+    "next": "Siguiente",
+    "back": "Atrás"
+  },
+  "form": {
+    "username-label": "Crea tu usuario",
+    "username-placeholder": "Introduce tu usuario",
+    "password-label": "Crea tu contraseña",
+    "password-placeholder": "Crea tu contraseña",
+    "password-confirmation-label": "Repite tu contraseña",
+    "password-confirmation-placeholder": "Repite tu contraseña",
+    "password-hint-info": "Tambien puedes crear una pista que te ayude a recordar tu contraseña.",
+    "password-hint-label": "Crea tu pista para recordar tu contraseña (opcional)",
+    "password-hint-placeholder": "Introduce tu pista",
+    "next": "Siguiente",
+    "back": "Atrás"
+  },
+  "confirmation": {
+    "content-title": "¡La cuenta se creó correctamente!",
+    "back": "Atrás",
+    "back-to-start": "Volver al inicio"
+  },
+  "navigation": {
+    "next": "Siguiente",
+    "back": "Atrás",
+    "back-to-start": "Volver al inicio"
+  }
+}
